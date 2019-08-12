@@ -38,7 +38,7 @@ public class SurveyController {
 
         if(question == null)
             return ResponseEntity.badRequest().build();
-        
+
         URI location =
                 ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}")
