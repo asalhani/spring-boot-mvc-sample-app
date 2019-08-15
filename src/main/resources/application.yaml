@@ -6,3 +6,8 @@ admin:
 server:
   port: 8088
 logging.level.org.springframework.web: DEBUG
+
+basic:
+  message: this is message value
+  boolValue: true
+  number: 10
