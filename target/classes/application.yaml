@@ -1,4 +1,8 @@
+spring:
+    profiles:
+      active: devaa
 admin:
   name: asalhani yaml
 server:
   port: 8088
+logging.level.org.springframework.web: DEBUG
