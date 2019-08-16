@@ -10,7 +10,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private  long Id;
+    private  long id;
 
     private  String UserName;
     private  String Role;
@@ -24,7 +24,16 @@ public class User {
     }
 
     public long getId() {
-        return Id;
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "Id=" + id +
+                ", UserName='" + UserName + '\'' +
+                ", Role='" + Role + '\'' +
+                '}';
     }
 
     public String getUserName() {
