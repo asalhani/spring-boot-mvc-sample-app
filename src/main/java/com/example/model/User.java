@@ -12,14 +12,14 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private  long id;
 
-    private  String UserName;
+    private  String name;
     private  String role;
 
     protected  User(){}
 
-    public User(String userName, String role) {
+    public User(String name, String role) {
         super();
-        UserName = userName;
+        this.name = name;
         this.role = role;
     }
 
@@ -31,13 +31,13 @@ public class User {
     public String toString() {
         return "User{" +
                 "Id=" + id +
-                ", UserName='" + UserName + '\'' +
+                ", UserName='" + name + '\'' +
                 ", Role='" + role + '\'' +
                 '}';
     }
 
-    public String getUserName() {
-        return UserName;
+    public String getName() {
+        return name;
     }
 
     public String getRole() {
