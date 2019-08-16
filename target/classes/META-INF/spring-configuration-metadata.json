@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "basic",
+      "type": "com.example.configurations.BasicConfiguration",
+      "sourceType": "com.example.configurations.BasicConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "basic.bool-value",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.configurations.BasicConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "basic.message",
+      "type": "java.lang.String",
+      "sourceType": "com.example.configurations.BasicConfiguration"
+    },
+    {
+      "name": "basic.number",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.configurations.BasicConfiguration",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

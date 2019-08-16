@@ -13,14 +13,14 @@ public class User {
     private  long id;
 
     private  String UserName;
-    private  String Role;
+    private  String role;
 
     protected  User(){}
 
     public User(String userName, String role) {
         super();
         UserName = userName;
-        Role = role;
+        this.role = role;
     }
 
     public long getId() {
@@ -32,7 +32,7 @@ public class User {
         return "User{" +
                 "Id=" + id +
                 ", UserName='" + UserName + '\'' +
-                ", Role='" + Role + '\'' +
+                ", Role='" + role + '\'' +
                 '}';
     }
 
@@ -41,6 +41,6 @@ public class User {
     }
 
     public String getRole() {
-        return Role;
+        return role;
     }
 }
