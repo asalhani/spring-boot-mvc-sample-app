@@ -5,7 +5,7 @@
                    class="list-child"
                    (change)="onTaskChange($event,task)"
                    [checked]="task.completed">
-            <span ngClass="{{task.completed ? 'name completed' : 'name'}}">{{ task.name }}</span>
+            <span ngClass="{{task.completed ? 'name completed' : 'name'}}">{{ task.name }} test </span>
             <span class="label {{ getDueDateLabel(task) }} pull-right"> {{ task.dueDate }}</span>
         </div>
     </li>
