@@ -1,13 +1,13 @@
-package com.demo.jpa;
+package com.tasksapp.tasks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoJpaApplication {
+public class TasksApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoJpaApplication.class, args);
+        SpringApplication.run(TasksApplication.class, args);
     }
 
 }

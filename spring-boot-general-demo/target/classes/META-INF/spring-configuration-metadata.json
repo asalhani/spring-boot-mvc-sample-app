@@ -10,8 +10,7 @@
     {
       "name": "basic.bool-value",
       "type": "java.lang.Boolean",
-      "sourceType": "com.example.configurations.BasicConfiguration",
-      "defaultValue": false
+      "sourceType": "com.example.configurations.BasicConfiguration"
     },
     {
       "name": "basic.message",
@@ -21,8 +20,7 @@
     {
       "name": "basic.number",
       "type": "java.lang.Integer",
-      "sourceType": "com.example.configurations.BasicConfiguration",
-      "defaultValue": 0
+      "sourceType": "com.example.configurations.BasicConfiguration"
     }
   ],
   "hints": []
